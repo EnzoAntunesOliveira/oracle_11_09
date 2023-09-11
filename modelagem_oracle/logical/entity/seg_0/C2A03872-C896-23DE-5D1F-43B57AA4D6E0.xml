@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E4C02E14-4C52-10BF-1690-02EACDFE67FE" name="CLIENTE">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C2A03872-C896-23DE-5D1F-43B57AA4D6E0" name="FUNCIONARIO">
 <createdBy>logonrmlocal</createdBy>
-<createdTime>2023-09-11 11:17:42 UTC</createdTime>
+<createdTime>2023-09-11 12:07:02 UTC</createdTime>
 <ownerDesignName>modelagem_oracle</ownerDesignName>
 <engineerTo>
 <item key="9C313D30-A4CA-BEA7-E3AD-D38DD5B077BA" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID_CLIENTE" id="ACC05B63-7EF1-82BF-BBE5-FD58E3E67E65">
+<Attribute name="ID_FUNCIONARIO" id="07DE829A-99D1-F2CA-BAA4-5322EE49B7A5">
 <createdBy>logonrmlocal</createdBy>
-<createdTime>2023-09-11 11:21:29 UTC</createdTime>
+<createdTime>2023-09-11 12:07:17 UTC</createdTime>
 <ownerDesignName>modelagem_oracle</ownerDesignName>
 <engineerTo>
 <item key="9C313D30-A4CA-BEA7-E3AD-D38DD5B077BA" value="true"/>
@@ -27,35 +27,37 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="NOME" id="5FD373A9-46CE-BCB9-2B40-197070B65FC9">
+<Attribute name="NOME" id="077C6982-0971-652F-3299-E04B1B798335">
 <createdBy>logonrmlocal</createdBy>
-<createdTime>2023-09-11 11:22:42 UTC</createdTime>
+<createdTime>2023-09-11 12:08:28 UTC</createdTime>
 <ownerDesignName>modelagem_oracle</ownerDesignName>
 <engineerTo>
 <item key="9C313D30-A4CA-BEA7-E3AD-D38DD5B077BA" value="true"/>
 </engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>50</dataTypeSize>
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ENDERECO" id="952D172E-037B-3732-8E9A-3614C166C473">
+<Attribute name="CARGO" id="69C44405-58E9-5E98-2030-EF3C9842805B">
 <createdBy>logonrmlocal</createdBy>
-<createdTime>2023-09-11 11:24:25 UTC</createdTime>
+<createdTime>2023-09-11 12:08:51 UTC</createdTime>
 <ownerDesignName>modelagem_oracle</ownerDesignName>
 <engineerTo>
 <item key="9C313D30-A4CA-BEA7-E3AD-D38DD5B077BA" value="true"/>
 </engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>50</dataTypeSize>
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="TELEFONE" id="41F6462D-012A-B6FC-E68E-6AF131C52081">
+<Attribute name="SALARIO" id="540B9804-4B6D-144D-C198-0DE12664F69D">
 <createdBy>logonrmlocal</createdBy>
-<createdTime>2023-09-11 11:26:41 UTC</createdTime>
+<createdTime>2023-09-11 12:09:17 UTC</createdTime>
 <ownerDesignName>modelagem_oracle</ownerDesignName>
 <engineerTo>
 <item key="9C313D30-A4CA-BEA7-E3AD-D38DD5B077BA" value="true"/>
@@ -64,26 +66,12 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>12</dataTypePrecision>
-<ownDataTypeParameters>,12,</ownDataTypeParameters>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="E-MAIL" id="CFCB1091-1929-D157-C91C-5BA06133B4C2">
+<Attribute name="DATA_DE_CONTRATACAO" id="9C43BDD6-3870-EDD4-9B23-785E78C8A1D4">
 <createdBy>logonrmlocal</createdBy>
-<createdTime>2023-09-11 11:27:31 UTC</createdTime>
-<ownerDesignName>modelagem_oracle</ownerDesignName>
-<engineerTo>
-<item key="9C313D30-A4CA-BEA7-E3AD-D38DD5B077BA" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>100</dataTypeSize>
-<ownDataTypeParameters>100,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="CPF" id="5790E74D-D043-ACDF-F0F8-CCB09EFDBB09">
-<createdBy>logonrmlocal</createdBy>
-<createdTime>2023-09-11 11:28:20 UTC</createdTime>
+<createdTime>2023-09-11 12:10:31 UTC</createdTime>
 <ownerDesignName>modelagem_oracle</ownerDesignName>
 <engineerTo>
 <item key="9C313D30-A4CA-BEA7-E3AD-D38DD5B077BA" value="true"/>
@@ -92,22 +80,21 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>11</dataTypePrecision>
-<ownDataTypeParameters>,11,</ownDataTypeParameters>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="A6E82355-6E90-4031-EFA7-311CCCA0F7BA" name="CLIENTE PK">
+<identifier id="387739AC-05CA-1F7F-F7D0-9DF7630258B3" name="FUNCIONARIO PK">
 <createdBy>logonrmlocal</createdBy>
-<createdTime>2023-09-11 11:22:21 UTC</createdTime>
+<createdTime>2023-09-11 12:08:18 UTC</createdTime>
 <ownerDesignName>modelagem_oracle</ownerDesignName>
 <engineerTo>
 <item key="9C313D30-A4CA-BEA7-E3AD-D38DD5B077BA" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>ACC05B63-7EF1-82BF-BBE5-FD58E3E67E65</attributeRef>
-<attributeRef>5FD373A9-46CE-BCB9-2B40-197070B65FC9</attributeRef>
+<attributeRef>07DE829A-99D1-F2CA-BAA4-5322EE49B7A5</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
