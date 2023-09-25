@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Cidade_Bairro" directorySegmentName="seg_0" id="F76BE8EC-19E0-0807-C7C4-60AF1374C852">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-25 13:36:40 UTC</createdTime>
+<ownerDesignName>modelagem_oracle</ownerDesignName>
+<engineerTo>
+<item key="9C313D30-A4CA-BEA7-E3AD-D38DD5B077BA" value="true"/>
+</engineerTo>
+<sourcePk>78F45F08-B4AB-D06D-70B1-F16DCDBFECC5</sourcePk>
+<identifying>false</identifying>
+<nameOnTarget>ID_Cidade</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C491EADA-D36E-A3B1-7AC2-1DE8D404112A</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>A0AA38D6-CFC6-C42B-A087-2F3B59C264A1</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

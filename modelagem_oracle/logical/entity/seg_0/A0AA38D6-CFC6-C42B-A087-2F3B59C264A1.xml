@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A0AA38D6-CFC6-C42B-A087-2F3B59C264A1" name="Bairro">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-25 13:36:40 UTC</createdTime>
+<ownerDesignName>modelagem_oracle</ownerDesignName>
+<engineerTo>
+<item key="9C313D30-A4CA-BEA7-E3AD-D38DD5B077BA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="209BE9B1-E23A-06C8-52C1-8EEB01DDAA50">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-25 13:36:40 UTC</createdTime>
+<ownerDesignName>modelagem_oracle</ownerDesignName>
+<importedID>6AD3826A-9157-34AB-65E6-E9BE0B9BC060</importedID>
+<engineerTo>
+<item key="9C313D30-A4CA-BEA7-E3AD-D38DD5B077BA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Cidade" id="37D42D8F-C174-E3FB-0750-2F8E79944FE9">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-25 13:36:40 UTC</createdTime>
+<ownerDesignName>modelagem_oracle</ownerDesignName>
+<importedID>382B02E0-D62F-6618-46AF-B65DEB33147A</importedID>
+<engineerTo>
+<item key="9C313D30-A4CA-BEA7-E3AD-D38DD5B077BA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nome_Bairro" id="A8585965-CA4F-8147-3799-20F92F4365AB">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-25 13:36:40 UTC</createdTime>
+<ownerDesignName>modelagem_oracle</ownerDesignName>
+<importedID>32581CD5-784A-C4DE-CEC0-86576A3A5A4A</importedID>
+<engineerTo>
+<item key="9C313D30-A4CA-BEA7-E3AD-D38DD5B077BA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="951BDEB7-5945-809A-5AC3-94728AFBE5A6">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-25 13:36:40 UTC</createdTime>
+<generatorID>F76BE8EC-19E0-0807-C7C4-60AF1374C852</generatorID>
+<ownerDesignName>modelagem_oracle</ownerDesignName>
+<importedID>DAD41402-6B58-9AF1-D439-7E0D069CA2ED</importedID>
+<engineerTo>
+<item key="9C313D30-A4CA-BEA7-E3AD-D38DD5B077BA" value="true"/>
+</engineerTo>
+<referedAttribute>331C2FEE-1E22-6C58-3CA2-E8A4381F1891</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BFDF1E5A-07F9-9FEA-DDE2-F0A077678B8A" name="Bairro PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-25 13:36:40 UTC</createdTime>
+<ownerDesignName>modelagem_oracle</ownerDesignName>
+<engineerTo>
+<item key="9C313D30-A4CA-BEA7-E3AD-D38DD5B077BA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>209BE9B1-E23A-06C8-52C1-8EEB01DDAA50</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

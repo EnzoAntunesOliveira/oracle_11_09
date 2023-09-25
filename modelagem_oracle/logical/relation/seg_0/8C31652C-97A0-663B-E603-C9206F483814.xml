@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Pais_Estado" directorySegmentName="seg_0" id="8C31652C-97A0-663B-E603-C9206F483814">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-25 13:36:40 UTC</createdTime>
+<ownerDesignName>modelagem_oracle</ownerDesignName>
+<engineerTo>
+<item key="9C313D30-A4CA-BEA7-E3AD-D38DD5B077BA" value="true"/>
+</engineerTo>
+<sourcePk>88EE0729-AF3E-4C25-2237-49ECD454A747</sourcePk>
+<identifying>false</identifying>
+<nameOnTarget>ID_Pais</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D6F84C70-5D8F-EA2E-E8B7-202668C68759</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>526BDB20-6598-C34D-9FC1-91EC0A52DD94</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
