@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="84637BED-510A-1957-5F32-D3C81440DAFC" name="venda">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-10-02 11:15:07 UTC</createdTime>
+<ownerDesignName>modelagem_oracle</ownerDesignName>
+<engineerTo>
+<item key="9C313D30-A4CA-BEA7-E3AD-D38DD5B077BA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="CFEB5A19-C6CF-0779-E966-3D297EBFFEDE">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-10-02 12:13:20 UTC</createdTime>
+<generatorID>24300D6D-AA0F-57D9-B3B2-F92656764269</generatorID>
+<ownerDesignName>modelagem_oracle</ownerDesignName>
+<engineerTo>
+<item key="9C313D30-A4CA-BEA7-E3AD-D38DD5B077BA" value="true"/>
+</engineerTo>
+<referedAttribute>65731985-60C9-101A-6F5C-9A85E5E1FD28</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_CLIENTE" id="4346236F-278E-E0DF-FF68-A2CBA9ED8D1B">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-10-02 12:13:20 UTC</createdTime>
+<generatorID>24300D6D-AA0F-57D9-B3B2-F92656764269</generatorID>
+<ownerDesignName>modelagem_oracle</ownerDesignName>
+<engineerTo>
+<item key="9C313D30-A4CA-BEA7-E3AD-D38DD5B077BA" value="true"/>
+</engineerTo>
+<referedAttribute>847A85EA-C279-BD48-0090-EA50A5E7A74A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_vendas" id="39ACA439-2423-7054-6FEA-EBAE2E744E6C">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-10-02 12:20:08 UTC</createdTime>
+<ownerDesignName>modelagem_oracle</ownerDesignName>
+<engineerTo>
+<item key="9C313D30-A4CA-BEA7-E3AD-D38DD5B077BA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="qtd" id="4C8AA6E6-D76D-63D6-44DF-4E30313E965C">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-10-02 12:21:37 UTC</createdTime>
+<ownerDesignName>modelagem_oracle</ownerDesignName>
+<engineerTo>
+<item key="9C313D30-A4CA-BEA7-E3AD-D38DD5B077BA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_funcionario" id="212C2F89-1F13-8D95-CD74-E21534816DA6">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-10-02 12:23:04 UTC</createdTime>
+<ownerDesignName>modelagem_oracle</ownerDesignName>
+<engineerTo>
+<item key="9C313D30-A4CA-BEA7-E3AD-D38DD5B077BA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="240986FD-8B85-6ECE-FEE2-D8ED3F8224C1" name="venda PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-10-02 11:19:14 UTC</createdTime>
+<ownerDesignName>modelagem_oracle</ownerDesignName>
+<engineerTo>
+<item key="9C313D30-A4CA-BEA7-E3AD-D38DD5B077BA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CFEB5A19-C6CF-0779-E966-3D297EBFFEDE</attributeRef>
+<attributeRef>4346236F-278E-E0DF-FF68-A2CBA9ED8D1B</attributeRef>
+<attributeRef>39ACA439-2423-7054-6FEA-EBAE2E744E6C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

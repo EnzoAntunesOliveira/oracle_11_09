@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E67C1EFF-D77D-7D36-C73C-C95C205DAE94" name="marca_produto">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-10-02 11:38:41 UTC</createdTime>
+<ownerDesignName>modelagem_oracle</ownerDesignName>
+<engineerTo>
+<item key="9C313D30-A4CA-BEA7-E3AD-D38DD5B077BA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="7832FC8F-B37E-148E-5AAA-1918914AD613">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-10-02 11:38:50 UTC</createdTime>
+<ownerDesignName>modelagem_oracle</ownerDesignName>
+<engineerTo>
+<item key="9C313D30-A4CA-BEA7-E3AD-D38DD5B077BA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="1C6FCE49-50D4-63FC-7553-D922649548D2">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-10-02 11:39:01 UTC</createdTime>
+<ownerDesignName>modelagem_oracle</ownerDesignName>
+<engineerTo>
+<item key="9C313D30-A4CA-BEA7-E3AD-D38DD5B077BA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="796019A4-10C8-5207-ACA7-0B4AA05E2F33">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-10-02 12:09:09 UTC</createdTime>
+<generatorID>C7E469E3-81C2-8D9D-CAC6-CAA3FBFF5C2E</generatorID>
+<ownerDesignName>modelagem_oracle</ownerDesignName>
+<engineerTo>
+<item key="9C313D30-A4CA-BEA7-E3AD-D38DD5B077BA" value="true"/>
+</engineerTo>
+<referedAttribute>59446B29-AAEC-D205-0A10-1DC42884980F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id11" id="E898892E-7B60-115A-2797-A5377E422434">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-10-02 12:09:54 UTC</createdTime>
+<generatorID>C7E469E3-81C2-8D9D-CAC6-CAA3FBFF5C2E</generatorID>
+<ownerDesignName>modelagem_oracle</ownerDesignName>
+<engineerTo>
+<item key="9C313D30-A4CA-BEA7-E3AD-D38DD5B077BA" value="true"/>
+</engineerTo>
+<referedAttribute>6BE1EC90-C40A-DEAE-40D5-70CB9BA2D18B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id2" id="7FE408A6-3385-AA6E-6992-993F008A6A23">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-10-02 12:10:10 UTC</createdTime>
+<generatorID>C7E469E3-81C2-8D9D-CAC6-CAA3FBFF5C2E</generatorID>
+<ownerDesignName>modelagem_oracle</ownerDesignName>
+<engineerTo>
+<item key="9C313D30-A4CA-BEA7-E3AD-D38DD5B077BA" value="true"/>
+</engineerTo>
+<referedAttribute>6179228F-7D0B-DF90-5731-504D8F877A01</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C59BE884-AA4B-2960-1FCB-58CBD49C82CE" name="marca_produto PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-10-02 11:38:54 UTC</createdTime>
+<ownerDesignName>modelagem_oracle</ownerDesignName>
+<engineerTo>
+<item key="9C313D30-A4CA-BEA7-E3AD-D38DD5B077BA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7832FC8F-B37E-148E-5AAA-1918914AD613</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

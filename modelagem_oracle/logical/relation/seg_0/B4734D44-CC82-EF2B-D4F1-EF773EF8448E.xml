@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="funcionario_venda" directorySegmentName="seg_0" id="B4734D44-CC82-EF2B-D4F1-EF773EF8448E">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-10-02 11:19:46 UTC</createdTime>
+<ownerDesignName>modelagem_oracle</ownerDesignName>
+<engineerTo>
+<item key="9C313D30-A4CA-BEA7-E3AD-D38DD5B077BA" value="true"/>
+</engineerTo>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C81ED3BE-9551-FCD4-CD0E-14F5663C68A9</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>84637BED-510A-1957-5F32-D3C81440DAFC</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

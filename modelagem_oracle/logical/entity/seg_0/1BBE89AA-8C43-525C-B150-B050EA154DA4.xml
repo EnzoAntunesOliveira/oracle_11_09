@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1BBE89AA-8C43-525C-B150-B050EA154DA4" name="categoria_produto">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-10-02 11:45:22 UTC</createdTime>
+<ownerDesignName>modelagem_oracle</ownerDesignName>
+<engineerTo>
+<item key="9C313D30-A4CA-BEA7-E3AD-D38DD5B077BA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="A839AE67-F2A4-2AFC-AA31-2155F9889F27">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-10-02 11:45:44 UTC</createdTime>
+<ownerDesignName>modelagem_oracle</ownerDesignName>
+<engineerTo>
+<item key="9C313D30-A4CA-BEA7-E3AD-D38DD5B077BA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descricao" id="B17EC37B-D52B-35CA-8817-51543979BB2E">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-10-02 11:45:47 UTC</createdTime>
+<ownerDesignName>modelagem_oracle</ownerDesignName>
+<engineerTo>
+<item key="9C313D30-A4CA-BEA7-E3AD-D38DD5B077BA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="BC569005-D6BC-10CD-C391-91244B4E4E48">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-10-02 12:09:34 UTC</createdTime>
+<generatorID>D2B39166-B10C-8A10-8775-1454F3749CAD</generatorID>
+<ownerDesignName>modelagem_oracle</ownerDesignName>
+<engineerTo>
+<item key="9C313D30-A4CA-BEA7-E3AD-D38DD5B077BA" value="true"/>
+</engineerTo>
+<referedAttribute>59446B29-AAEC-D205-0A10-1DC42884980F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id11" id="72D98363-0FAD-E4C8-4B5E-ACFE608B7FA9">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-10-02 12:09:54 UTC</createdTime>
+<generatorID>D2B39166-B10C-8A10-8775-1454F3749CAD</generatorID>
+<ownerDesignName>modelagem_oracle</ownerDesignName>
+<engineerTo>
+<item key="9C313D30-A4CA-BEA7-E3AD-D38DD5B077BA" value="true"/>
+</engineerTo>
+<referedAttribute>6BE1EC90-C40A-DEAE-40D5-70CB9BA2D18B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id2" id="79ED84BB-B473-32F5-C985-6A655503216C">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-10-02 12:10:10 UTC</createdTime>
+<generatorID>D2B39166-B10C-8A10-8775-1454F3749CAD</generatorID>
+<ownerDesignName>modelagem_oracle</ownerDesignName>
+<engineerTo>
+<item key="9C313D30-A4CA-BEA7-E3AD-D38DD5B077BA" value="true"/>
+</engineerTo>
+<referedAttribute>6179228F-7D0B-DF90-5731-504D8F877A01</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E2D2C884-C531-8C76-B263-71E083FCD126" name="categoria_produto PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-10-02 11:45:59 UTC</createdTime>
+<ownerDesignName>modelagem_oracle</ownerDesignName>
+<engineerTo>
+<item key="9C313D30-A4CA-BEA7-E3AD-D38DD5B077BA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A839AE67-F2A4-2AFC-AA31-2155F9889F27</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

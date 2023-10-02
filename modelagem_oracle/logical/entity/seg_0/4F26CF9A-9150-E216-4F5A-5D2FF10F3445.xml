@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FD05E252-5F11-D739-B6C9-B8E39B6472E8" name="Endereço_Cliente">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4F26CF9A-9150-E216-4F5A-5D2FF10F3445" name="produto">
 <createdBy>logonrmlocal</createdBy>
-<createdTime>2023-09-25 13:36:40 UTC</createdTime>
+<createdTime>2023-10-02 12:06:21 UTC</createdTime>
 <ownerDesignName>modelagem_oracle</ownerDesignName>
 <engineerTo>
 <item key="9C313D30-A4CA-BEA7-E3AD-D38DD5B077BA" value="true"/>
@@ -15,11 +15,10 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID" id="65731985-60C9-101A-6F5C-9A85E5E1FD28">
+<Attribute name="id" id="59446B29-AAEC-D205-0A10-1DC42884980F">
 <createdBy>logonrmlocal</createdBy>
-<createdTime>2023-09-25 13:36:40 UTC</createdTime>
+<createdTime>2023-10-02 12:06:31 UTC</createdTime>
 <ownerDesignName>modelagem_oracle</ownerDesignName>
-<importedID>4D5D4AF3-C2F1-E0B7-C90B-E1E9DB7FDDDA</importedID>
 <engineerTo>
 <item key="9C313D30-A4CA-BEA7-E3AD-D38DD5B077BA" value="true"/>
 </engineerTo>
@@ -28,25 +27,10 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID_pais" id="C6E2E7D3-A150-031F-9340-2F0CAE6FCD4E">
+<Attribute name="id_marca" id="BEFE0A84-F8A4-88F8-391A-8590E7FA476B">
 <createdBy>logonrmlocal</createdBy>
-<createdTime>2023-09-25 13:36:40 UTC</createdTime>
+<createdTime>2023-10-02 12:06:44 UTC</createdTime>
 <ownerDesignName>modelagem_oracle</ownerDesignName>
-<importedID>AE66CE2F-6754-3170-9FDA-F882CCFB28A2</importedID>
-<engineerTo>
-<item key="9C313D30-A4CA-BEA7-E3AD-D38DD5B077BA" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="ID_Estado" id="A97F0C34-E1D3-FDAF-8BED-89CA911C1F6F">
-<createdBy>logonrmlocal</createdBy>
-<createdTime>2023-09-25 13:36:40 UTC</createdTime>
-<ownerDesignName>modelagem_oracle</ownerDesignName>
-<importedID>D73F441E-4271-467E-2977-F54EFF70C244</importedID>
 <engineerTo>
 <item key="9C313D30-A4CA-BEA7-E3AD-D38DD5B077BA" value="true"/>
 </engineerTo>
@@ -56,11 +40,10 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID_Cidade" id="87F847D9-2DD5-7D30-1ECB-FA68C9CF8158">
+<Attribute name="id_categoria" id="27BB3B48-4D5E-0783-83C0-A1BAD190907D">
 <createdBy>logonrmlocal</createdBy>
-<createdTime>2023-09-25 13:36:40 UTC</createdTime>
+<createdTime>2023-10-02 12:06:54 UTC</createdTime>
 <ownerDesignName>modelagem_oracle</ownerDesignName>
-<importedID>21029906-27E3-3174-EE4A-045908C03A96</importedID>
 <engineerTo>
 <item key="9C313D30-A4CA-BEA7-E3AD-D38DD5B077BA" value="true"/>
 </engineerTo>
@@ -70,11 +53,10 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID_Bairro" id="60888AC0-67C0-A788-CBCA-F20FE67D3660">
+<Attribute name="id_compra" id="0E321ADE-B667-944B-4C85-557A6F70530F">
 <createdBy>logonrmlocal</createdBy>
-<createdTime>2023-09-25 13:36:40 UTC</createdTime>
+<createdTime>2023-10-02 12:07:13 UTC</createdTime>
 <ownerDesignName>modelagem_oracle</ownerDesignName>
-<importedID>1ACD9897-0EF8-7570-3A6D-8F3DBC97BB56</importedID>
 <engineerTo>
 <item key="9C313D30-A4CA-BEA7-E3AD-D38DD5B077BA" value="true"/>
 </engineerTo>
@@ -84,11 +66,23 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Logradouro" id="E441B645-399B-DE95-F4A5-A52B540BC5D0">
+<Attribute name="id_estoque" id="6F4167F0-F6DF-6BC3-BF2D-E05BCF7C260B">
 <createdBy>logonrmlocal</createdBy>
-<createdTime>2023-09-25 13:36:40 UTC</createdTime>
+<createdTime>2023-10-02 12:07:42 UTC</createdTime>
 <ownerDesignName>modelagem_oracle</ownerDesignName>
-<importedID>B94C4DC6-1160-917B-7117-29DDD3B7F91A</importedID>
+<engineerTo>
+<item key="9C313D30-A4CA-BEA7-E3AD-D38DD5B077BA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="02138239-3E3E-EE27-EE38-EDBA4804D976">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-10-02 12:08:00 UTC</createdTime>
+<ownerDesignName>modelagem_oracle</ownerDesignName>
 <engineerTo>
 <item key="9C313D30-A4CA-BEA7-E3AD-D38DD5B077BA" value="true"/>
 </engineerTo>
@@ -99,39 +93,10 @@
 <dataTypeSize>50</dataTypeSize>
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Numero" id="36090FF1-21DE-349E-36A4-587CD4DCB526">
+<Attribute name="descricao" id="743F3D10-CDC8-0952-89CD-F438279D589B">
 <createdBy>logonrmlocal</createdBy>
-<createdTime>2023-09-25 13:36:40 UTC</createdTime>
+<createdTime>2023-10-02 12:08:19 UTC</createdTime>
 <ownerDesignName>modelagem_oracle</ownerDesignName>
-<importedID>5B0586EE-5250-8D31-1DA9-86003423A1F7</importedID>
-<engineerTo>
-<item key="9C313D30-A4CA-BEA7-E3AD-D38DD5B077BA" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="CEP" id="A727A62C-163D-2007-8F86-AB0248D3BB95">
-<createdBy>logonrmlocal</createdBy>
-<createdTime>2023-09-25 13:36:40 UTC</createdTime>
-<ownerDesignName>modelagem_oracle</ownerDesignName>
-<importedID>C49F763F-D1FB-B901-D66D-BD0470B4F4F4</importedID>
-<engineerTo>
-<item key="9C313D30-A4CA-BEA7-E3AD-D38DD5B077BA" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Referencia" id="9522F117-5D7F-7EB7-7BB9-6C58573A79B9">
-<createdBy>logonrmlocal</createdBy>
-<createdTime>2023-09-25 13:36:40 UTC</createdTime>
-<ownerDesignName>modelagem_oracle</ownerDesignName>
-<importedID>DDEAA860-51EF-9CF3-EBC2-C9AFAAEF6E71</importedID>
 <engineerTo>
 <item key="9C313D30-A4CA-BEA7-E3AD-D38DD5B077BA" value="true"/>
 </engineerTo>
@@ -142,15 +107,29 @@
 <dataTypeSize>50</dataTypeSize>
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID_CLIENTE" id="847A85EA-C279-BD48-0090-EA50A5E7A74A">
+<Attribute name="id1" id="6BE1EC90-C40A-DEAE-40D5-70CB9BA2D18B">
 <createdBy>logonrmlocal</createdBy>
-<createdTime>2023-10-02 12:12:24 UTC</createdTime>
-<generatorID>DE1C2D96-FDA7-8547-0A7E-60819E9C918B</generatorID>
+<createdTime>2023-10-02 12:09:54 UTC</createdTime>
+<generatorID>8705DFDB-FEB6-7D39-0D30-C1A6BDFCCFCB</generatorID>
 <ownerDesignName>modelagem_oracle</ownerDesignName>
 <engineerTo>
 <item key="9C313D30-A4CA-BEA7-E3AD-D38DD5B077BA" value="true"/>
 </engineerTo>
-<referedAttribute>0A95FFBA-438C-B8F0-5814-161AE6652C1D</referedAttribute>
+<referedAttribute>897B6961-129B-11CA-C901-5DD3FC5E7069</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id2" id="6179228F-7D0B-DF90-5731-504D8F877A01">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-10-02 12:10:10 UTC</createdTime>
+<generatorID>0754665B-6A1C-2628-F513-B6DDF66F31B8</generatorID>
+<ownerDesignName>modelagem_oracle</ownerDesignName>
+<engineerTo>
+<item key="9C313D30-A4CA-BEA7-E3AD-D38DD5B077BA" value="true"/>
+</engineerTo>
+<referedAttribute>DB2C9A39-954D-378F-0A98-17AD3D41DEC9</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -158,17 +137,18 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="E15FFBB6-E36B-96A4-3FCD-2A24248F61BF" name="Endereço_Cliente PK">
+<identifier id="33700293-94CE-B1E0-4C3B-A89A54D8A6FF" name="produto PK">
 <createdBy>logonrmlocal</createdBy>
-<createdTime>2023-09-25 13:36:40 UTC</createdTime>
+<createdTime>2023-10-02 12:06:35 UTC</createdTime>
 <ownerDesignName>modelagem_oracle</ownerDesignName>
 <engineerTo>
 <item key="9C313D30-A4CA-BEA7-E3AD-D38DD5B077BA" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>65731985-60C9-101A-6F5C-9A85E5E1FD28</attributeRef>
-<attributeRef>847A85EA-C279-BD48-0090-EA50A5E7A74A</attributeRef>
+<attributeRef>59446B29-AAEC-D205-0A10-1DC42884980F</attributeRef>
+<attributeRef>6BE1EC90-C40A-DEAE-40D5-70CB9BA2D18B</attributeRef>
+<attributeRef>6179228F-7D0B-DF90-5731-504D8F877A01</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="estoque_produto" directorySegmentName="seg_0" id="0754665B-6A1C-2628-F513-B6DDF66F31B8">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-10-02 12:10:10 UTC</createdTime>
+<ownerDesignName>modelagem_oracle</ownerDesignName>
+<engineerTo>
+<item key="9C313D30-A4CA-BEA7-E3AD-D38DD5B077BA" value="true"/>
+</engineerTo>
+<sourcePk>43973F22-A6C8-CE65-8EF4-291B21068F6B</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>118F7F04-F119-84DA-7F2F-C0A0C1D43A6E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>4F26CF9A-9150-E216-4F5A-5D2FF10F3445</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
